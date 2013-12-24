@@ -1,0 +1,7 @@
+#file
+arcdmp.sdf
+*.suo
+
+#dir
+x64/
+source/x64
