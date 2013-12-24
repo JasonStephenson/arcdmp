@@ -18,7 +18,7 @@ using namespace boost::program_options;
 
 string GetMachineType(string file_in);
 
-int main(int argc, wchar_t* argv[])
+int main(int argc, char* argv[])
 {
   options_description desc("Allowed options");
   desc.add_options()

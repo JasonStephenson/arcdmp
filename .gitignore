@@ -1,6 +1,7 @@
 #file
 arcdmp.sdf
 *.suo
+*.opensdf
 
 #dir
 x64/
