@@ -1,4 +1,4 @@
 arcdmp
 ======
 
-A tool which examines windows PE headers and pulls out what architecture an executable is compiled for
+A tool to examine windows PE headers and pull out the architecture for which an executable was compiled.
