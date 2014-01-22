@@ -6,3 +6,5 @@ arcdmp.sdf
 #dir
 x64/
 source/x64
+3rdparty/boost_1_53_0/*
+!3rdparty/boost_1_53_0/libsx64
