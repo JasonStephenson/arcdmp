@@ -2,6 +2,7 @@
 arcdmp.sdf
 *.suo
 *.opensdf
+*.aps
 
 #dir
 x64/
