@@ -6,7 +6,15 @@
 #include <vector>
 #include <filesystem>
 
+#ifdef __cpp_lib_filesystem
+#include <filesystem>
+namespace stdef = std::filesystem;
+#elif __cpp_lib_experimental_filesystem
+#include <experimental/filesystem>
 namespace stdef = std::experimental::filesystem;
+#else
+#error "no filesystem support ='("
+#endif
 
 void print_usage();
 void output_machine_types(const std::string& directory, const std::string& arcFilter, const std::string& fileFilter);
